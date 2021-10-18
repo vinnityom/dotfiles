@@ -27,6 +27,14 @@ macos-prepare:
 	# https://github.com/rlue/vim-barbaric
 	curl -o /usr/local/bin/xkbswitch https://raw.githubusercontent.com/myshov/xkbswitch-macosx/master/bin/xkbswitch
 
+macos-prepare_my:
+	brew install neovim git the_silver_searcher fzf bat htop fd ncdu tldr httpie git-delta ripgrep
+	brew install hashicorp/tap/terraform-ls
+	brew install poetry
+	brew install --HEAD universal-ctags/universal-ctags/universal-ctags
+	# https://github.com/rlue/vim-barbaric
+	curl -o /usr/local/bin/xkbswitch https://raw.githubusercontent.com/myshov/xkbswitch-macosx/master/bin/xkbswitch
+
 # ripgrep https://github.com/BurntSushi/ripgrep/issues/1562
 ubuntu-prepare:
 	curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -

@@ -87,3 +87,4 @@ make ubuntu-update
 * `<leader> f` – format in visual mode (prettier)
 * `<leader> fr` – search & replace
 * `<leader> rn` – replace word under cursor in current file
+* `<leader> ca` – toggle commenter delimeters
