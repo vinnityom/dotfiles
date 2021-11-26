@@ -294,6 +294,7 @@ nmap gcc <plug>NERDCommenterToggle
 
 let g:NERDDefaultAlign = 'left'
 let g:NERDSpaceDelims = 1
+let g:NERDTreeShowHidden=1
 
 " https://github.com/tpope/vim-endwise/issues/11
 execute "inoremap {<CR> {<CR>}<ESC>O"
